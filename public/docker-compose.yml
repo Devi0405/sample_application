@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  service1:
+    image: service1
+    build:
+      context: .
+      dockerfile: Service1.API/Dockerfile
+
+  service2:
+    image: service2
+    build:
+      context: .
+      dockerfile: service2.API/Dockerfile
